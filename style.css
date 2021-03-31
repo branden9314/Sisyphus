@@ -1,0 +1,72 @@
+#jo{
+  color:skyblue;
+    font-size: 150%;
+    text-align: center;
+  }
+#story{
+      font-family: 'KoPub Batang', serif  ;
+  }
+#grid{
+    display:grid;
+    grid-template-columns: 100px 1fr;
+    width:40%}
+#actors_1,#actors_2,#actors_3{
+  display:grid;
+  grid-template-columns: 100px 1fr;
+  border-width:0px;
+    }
+
+.core{
+  padding:10px;
+  padding-top: 40%;
+  padding-left:20%;
+  border: yellow 1px solid;
+  }
+a{
+  text-decoration:none;
+  font-family: 'KoPub Batang', serif  ;
+  color:gold;
+  }
+
+body{
+  background-image: url("poster.jpg");
+  background-repeat: no-repeat;
+  background-size:75%;
+  background-color: black;
+  background-position:right;
+  font-family: 'Jeju Gothic', sans-serif;
+  color: white;
+  }
+div{
+  border:1px solid gray;
+  }
+
+
+@media(max-width:600px){
+  #jo{ text-align: center;
+  }
+  #grid{
+    display:block;
+    margin:auto;
+  }
+  #actors_1,#actors_2,#actors_3{
+    display:block;
+  }
+  #myth_image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .core{padding:20%;}
+  body{
+      background-image: url("poster.jpg");
+      background-position:bottom;
+      }
+  a,h1,h3,h4,h5{
+    text-align: center;
+    }
+  ol{
+    display: inline;
+      }
+}
