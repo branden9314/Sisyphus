@@ -19,17 +19,56 @@
         body{
           background-image: url("poster.jpg");
           background-repeat: no-repeat;
-          background-size:75%;
+          background-size:50%;
           background-color: black;
-          background-position:right;
+          background-position:right top;
           font-family: 'Jeju Gothic', sans-serif;
           color: white;
           }
+          div{
+            border:1px solid gray;
 
+          }
+          #grid{
+            display:grid;
+            grid-template-columns: 100px 1fr;
+            width:40%
+
+
+
+
+          }
+          .core{
+          padding:10px;
+          padding-top: 40%;
+          padding-left:20%;
+          border: yellow 1px solid;
+          }
+
+          #actors_1{
+            display:grid;
+            grid-template-columns: 100px 1fr;
+            border-width:0px;
+
+              }
+          #actors_2{
+            display:grid;
+            grid-template-columns: 100px 1fr;
+              border-width:0px;
+              }
+          #actors_3{
+            display:grid;
+            grid-template-columns: 100px 1fr;
+              border-width:0px;
+                }
     </style>
   </head>
   <body>
-
+    <div style="position: fixed;z-index: -99;width: 50%;height: 70%;border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px;right: 50px;bottom: 60px;" >
+  <iframe frameborder="0" height="100%" width="100%"
+    src="https://youtube.com/embed/NR48dqv1Eso?autoplay=1&controls=0&showinfo=0&autohide=1">
+  </iframe>
+</div>
 
     <h1><a href="index.html" id="jo">시지프스 : The Myth</a></h1>
     <a href="https://tv.jtbc.joins.com/sisyphus" title="공식사이트로 이동" target="_blank">《시지프스: the myth》</a>는 'JTBC 10주년 특별기획 드라마' 라는 타이틀이 붙은 드라마로
@@ -42,10 +81,45 @@
       </ol>
       </h3>
       <h4>등장인물</h4>
-      <h5><ul>
-        <li>한태술</li>
-        <li>강서해</li>
-        <li>시그마</li>
-      </ul></h5>
+      <h5>
+        <div id="grid">
+
+            <div class="core">핵심인물들
+            </div>
+
+          <div class="actors" style="border-width:0px;">
+
+                  <div id="actors_1">
+                  <div>  <img src="한태술.jpg" width="100px"> </div>
+                  <div  style=" padding:5%;" >
+                  한태술
+                  <p><퀀텀앤타임>의 공동 창업자. 국민 공대오빠매달 급여며 주식 배당금으로 통장에 수십억이 찍히강남의 최고급 빌딩의 펜트하우스를 소유한 재벌 회장이지만,  그는 여전히 자신을 엔지니어라고 소개한다.  </p>
+                  </div>
+                  </div>
+
+                  <div id="actors_2">
+                  <div>
+                  <img src="강서해.jpg" width="100px"></div>
+                  <div  style=" padding:5%;" >
+                  강서해
+                  <p>미래에서 온 구원자
+                    서울의 고층건물 사이를 로프로 활강하며 다니고,  거구의 남자들을 맨손으로 때려눕히고,저격이며 폭탄 설치며 육탄전이며 못하는 게 없지만,  지하철 한번 타면 환승역에서 미아가 되어버리는 여자.</p>
+                  </div>
+                  </div>
+
+                  <div id="actors_3">
+                  <div>
+                  <img src="시그마.jpg" width="100px"></div>
+                  <div  style=" padding:5%;">
+                  시그마
+                  <p>세상을 멸망시킬 절대 악.시그마는 절대악이다.그는 통제불능인 것 같지만 치밀하게 세상을 멸망시킬 계획을 실행 중이다.</p>
+                  </div>
+                  </div>
+
+          </div>
+      </div>
+
+        </h5>
+
       </body>
       </html>
